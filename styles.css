@@ -1,0 +1,56 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(56, 56, 56);
+}
+
+.wrapper {
+    background-color: #fff;
+    margin: 50px auto 0;
+    width: 500px;
+    height: auto;
+    padding: 10px 10px 40px;
+}
+
+.header, .content {
+    display: flex;
+}
+
+.text {
+    flex-direction: row;
+}
+
+img {
+    width: auto;
+    height: 80px;
+    margin-left: auto;
+}
+
+.top-paragraph {
+    margin-top: 0;
+}
+
+div .text {
+    margin-right: 10px;
+}
+
+form input{
+    border-style: hidden hidden groove;
+}
+
+.footer {
+    text-align: center;
+}
+
+button {
+    border-radius: 2em;
+    padding: 5px;
+    border:0.16em solid rgba(255,255,255,0);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color: #3781C4;
+    color: #fff;
+}
+
+
